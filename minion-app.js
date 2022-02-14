@@ -15,8 +15,7 @@ btnTranslate.addEventListener("click", clickEvent);
 //call back function
 
 function clickEvent() {
-    console.log("clicked");
-    console.log(textInput.value);
+    outputDiv.innerText = "banananananananaana " + textInput.value;
 }
 
 //love excercise
