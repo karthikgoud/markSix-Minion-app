@@ -11,8 +11,21 @@
             display: block;
             margin: 1rem;
             width: 80%;
-            height: 30vh;
+            height: 15vh;
             padding: 1rem;
+        }
+
+        .output {
+            border: 1px solid black;
+            display: block;
+            margin: 1rem;
+            width: 80%;
+            height: 15vh;
+            padding: 1rem;
+        }
+
+        button {
+            margin-bottom: 1rem;
         }
     </style>
 </head>
@@ -21,6 +34,8 @@
     <h1>Talk bananaaaaaaaaaaaa</h1>
     <textarea id="txt-input" placeholder="Enter sentance , we will convert to minion"></textarea>
     <button id="btn-translate">Translate</button>
+    <div>Output will come here 👇 </div>
+    <div class="output"></div>
     <script src="./minion-app.js"></script>
 
 </body>
