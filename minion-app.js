@@ -1,12 +1,14 @@
 
 // reference button s=using querySelector
 var buttonClick = document.querySelector("#btnTranslate");
+var textInput = document.querySelector("#userText");
 
 // add eventlistener
-buttonClick.addEventListener("click",run);
+buttonClick.addEventListener("click",readInput);
 
-// function for eventListner
-function run(){
+function readInput(){
+
     console.log("clicked");
-
+    console.log(textInput.value);
+    
 }
