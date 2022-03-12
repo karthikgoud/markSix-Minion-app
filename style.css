@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem;
+}
+
+textarea{
+    display: block;
+    height: 20vh;
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid darkolivegreen;
+}
+
+div#output{
+    border: 3px solid darkolivegreen;
+    height: 20vh;
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h1{
+    background-color: darkolivegreen;
+    padding: 1rem;
+    color: white;
+}
+
+button{
+    display: block;
+    background-color: yellowgreen;
+    min-width: 10%;
+    padding: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 1rem 0px 1rem;
+}
+
+h3{
+    margin-left: 1rem;
+}
