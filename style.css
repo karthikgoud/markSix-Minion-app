@@ -18,7 +18,11 @@ textarea{
     padding: 1rem;
     margin: 1rem;
     border: 3px solid darkolivegreen;
+    font-size: 1.6rem;
+    color: slateblue;
+    border-radius: 8px;
 }
+
 
 div#output{
     border: 3px solid darkolivegreen;
@@ -26,6 +30,9 @@ div#output{
     width: 70%;
     padding: 1rem;
     margin: 1rem;
+    font-size: 1.6rem;
+    color: slateblue;
+    border-radius: 8px;
 }
 
 h1{
@@ -42,6 +49,14 @@ button{
     justify-content: center;
     align-items: center;
     margin: 0px 1rem 0px 1rem;
+    color: rgb(14, 33, 33);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+button:hover{
+    color: darkred;
+    background: lightyellow;
 }
 
 h3{
