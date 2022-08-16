@@ -57,6 +57,7 @@ button{
 button:hover{
     color: darkred;
     background: lightyellow;
+    cursor: pointer;
 }
 
 h3{
