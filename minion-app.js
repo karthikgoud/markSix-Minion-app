@@ -6,31 +6,27 @@ var display = document.querySelector("#output");
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function getTranslationURL(text) {
-    return serverURL + "?" + "text=" + text;
+  return serverURL + "?" + "text=" + text;
 }
 
 function errorHandler(error) {
-    console.log("error occured", error);
-    alert("try after sometime")
+  //   console.log("error occured", error);
+  alert("Server Error: Too many request. Please try after few minutes...");
 }
-
 
 function clickHandler() {
+  // taking input
+  var inputText = textInput.value;
 
-    // taking input
-    var inputText = textInput.value;
-
-    // calling server
-    fetch(getTranslationURL(inputText))
-        .then(response => response.json())
-        .then(json => {
-            var translatedText = json.contents.translated;
-            display.innerText = translatedText;
-        })
-        .catch(errorHandler)
-
+  // calling server
+  fetch(getTranslationURL(inputText))
+    .then((response) => response.json())
+    .then((json) => {
+      var translatedText = json.contents.translated;
+      display.textContent = translatedText;
+    })
+    .catch(errorHandler);
 }
-
 
 // add eventlistener
 buttonClick.addEventListener("click", clickHandler);
