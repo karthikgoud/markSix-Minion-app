@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,41 @@
     <title>banana speak</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <h1>🍌🍌 Talk Bananaaaaa 🍌🍌</h1>
 
-    
-    <textarea id="userText" placeholder="Type something to translate"></textarea>
+<body>
+    <header>
+        <h1>🍌🍌 Talk Bananaaaaa 🍌🍌 Minion Translator 🍌🍌</h1>
+    </header>
+
+
+    <textarea id="userText" placeholder="Please type in your text to translate to Minions speak ..."></textarea>
 
     <br>
-    
-    <div><button id="btnTranslate" type="button">Click Me</button></div>
 
-    <h3>Output will come here 👇 </h3>
+    <div class="container">
+        <img src="./image/minion-3.jpg" alt="">
+
+        <div class="container-col">
+            <button id="btnTranslate" type="button">Click to Translate</button>
+            <h3>Output will come here 👇 </h3>
+
+        </div>
+
+        <img src="./image/minion-2.jpg" alt="">
+    </div>
+
 
     <div id="output"></div>
+
+    <footer>
+        <h4>About</h4>
+        <p>Convert from English to Minion speak. This language is spoken by the minions in Despicable Me. The language
+            is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal
+            Studios.</p>
+    </footer>
 
 
 </body>
 <script src="./minion-app.js"></script>
+
 </html>
