@@ -1,18 +1,19 @@
-# H1 Mark 6 - Minion-app
+# Mark 6 - Minion-app
+
 Convert from English to Minion speak. This language is spoken by the minions in Despicable Me..
 
 # Live link:
 
 https://karthik-minion-speak-mark06.netlify.app/
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/9660782/178150810-25180076-69a8-4078-8889-6198e0a31d36.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/9660782/188456805-9410a5d0-b613-425d-a011-81dec407dfae.png">
 
 
 1. Take input some text 
 2. Process text into banana lang using API
 3. Output text in dom
 
-## H2 Things learned in JavaScript in the browser!
+## Things learned in JavaScript in the browser!
 
 - Wiring button
 - wiring input
