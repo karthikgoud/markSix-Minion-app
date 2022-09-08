@@ -18,14 +18,20 @@ function clickHandler() {
   // taking input
   var inputText = textInput.value;
 
-  // calling server
-  fetch(getTranslationURL(inputText))
-    .then((response) => response.json())
-    .then((json) => {
-      var translatedText = json.contents.translated;
-      display.textContent = translatedText;
-    })
-    .catch(errorHandler);
+  //validation
+  if (inputText) {
+    // calling server
+    fetch(getTranslationURL(inputText))
+      .then((response) => response.json())
+      .then((json) => {
+        var translatedText = json.contents.translated;
+        display.textContent = translatedText;
+      })
+      .catch(errorHandler);
+  } else {
+    console.log(inputText);
+    alert("Please enter the text to translate to Minion.");
+  }
 }
 
 // add eventlistener
