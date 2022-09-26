@@ -1,12 +1,15 @@
-# Mark 6 - Minion-Translator-app
+# Mark-6: Minion-Translator-app
 
-Convert from English to Minion speak. This language is spoken by the minions in Despicable Me.Convert from English to Minion speak. This language is spoken by the minions in Despicable Me.
+### This language is spoken by the minions in Despicable Me.Convert from English to Minion speak.
 
-# Live link:
+This app convert from English to Minion speak. This is created using API in funtranslations.com
 
-https://karthik-minion-speak-mark06.netlify.app/
+Tech stack used : HTML, CSS and Javascript.
 
-<img width="944" alt="image" src="https://user-images.githubusercontent.com/9660782/189151091-fb7a04e0-7cc0-4a40-b13a-f03c12c5eb79.png">
+### Enter sentance in english and it translates into minion language.
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/9660782/192225253-c0f89fca-0b8d-4f22-9e8f-77835b13ce5c.png">
+
 
 
 
